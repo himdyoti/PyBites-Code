@@ -11,8 +11,8 @@ def make_html(htag):
     return deco
 
 @make_html('div') 
-@make_html('p')        #make_html('p')('<strong>I code with PyBites</strong>')
-@make_html('strong')   # make_html('strong')(get_text)
+@make_html('p')
+@make_html('strong')
 def get_text(text='I code with PyBites'):
     return text
 print(get_text())
